@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<style >
+  .requerimientoTarea {
+    text-align: center;
+    background-color: MediumSpringGreen;
+  }
+
+  .formmulario {
+    background-color: Azure;
+    text-align: center;
+  }
+
+</style>
+<body>
+  <div class="formmulario" >
+    <h2>Formulario de suscripcion a newsletter (boletin) autos</h2>
+    <form method="post" action="form.php">
+        <label>Nombre:</label><br>
+        <input type="text" name="name"><br>
+        <label>Apellido:</label><br>
+        <input type="text" name="last_name"><br><br>
+        <label>Nickname:</label><br>
+        <input type="text" name="nickname"><br><br>
+
+    <h2>Seleccione la marca de auto preferida pra recibir noticias</h2>
+      <label>Marca de auto preferida:</label>
+      <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Mercedes</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+
+    <h2>Incluir souvenir</h2>
+      <input type="radio" name="gender" value="male">
+      <label for="male">Hombre</label><br>
+      <input type="radio" name="gender" value="female">
+      <label for="female">Mujer</label><br>
+
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    </form>
+
+  </div>
+
+      <div class="requerimientoTarea">
+
+      </div>
+</body>
+</html>
